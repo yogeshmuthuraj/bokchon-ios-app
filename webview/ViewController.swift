@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  wkwebview
+//  bokchon
 //
-//  Created by Afrar Malakooth on 6/5/20.
+//  Created by Yogesh Muthuraj
 //
 
 import UIKit
@@ -19,11 +19,10 @@ class ViewController: UIViewController, WKNavigationDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url = URL(string: "https://www.google.com")!
+        let url = URL(string: "https://bokchon.herokuapp.com/")!
         webView.load(URLRequest(url: url))
         webView.allowsBackForwardNavigationGestures = true
     }
 
 
 }
-

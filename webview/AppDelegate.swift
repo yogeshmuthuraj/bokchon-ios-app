@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  wkwebview
+//  bokchon
 //
-//  Created by Afrar Malakooth on 6/5/20.
+//  Created by Yogesh Muthuraj
 //
 
 import UIKit

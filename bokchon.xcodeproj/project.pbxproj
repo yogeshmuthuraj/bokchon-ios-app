@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5A9B92E3248A2EB800B88C61 /* wkwebview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wkwebview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9B92E3248A2EB800B88C61 /* bokchon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bokchon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9B92E6248A2EB800B88C61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A9B92E8248A2EB800B88C61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A9B92EB248A2EB800B88C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		5A9B92DA248A2EB800B88C61 = {
 			isa = PBXGroup;
 			children = (
-				5A9B92E5248A2EB800B88C61 /* wkwebview */,
+				5A9B92E5248A2EB800B88C61 /* webview */,
 				5A9B92E4248A2EB800B88C61 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		5A9B92E4248A2EB800B88C61 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A9B92E3248A2EB800B88C61 /* wkwebview.app */,
+				5A9B92E3248A2EB800B88C61 /* bokchon.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5A9B92E5248A2EB800B88C61 /* wkwebview */ = {
+		5A9B92E5248A2EB800B88C61 /* webview */ = {
 			isa = PBXGroup;
 			children = (
 				5A9B92E6248A2EB800B88C61 /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				5A9B92EF248A2EBA00B88C61 /* LaunchScreen.storyboard */,
 				5A9B92F2248A2EBA00B88C61 /* Info.plist */,
 			);
-			path = wkwebview;
+			path = webview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5A9B92E2248A2EB800B88C61 /* wkwebview */ = {
+		5A9B92E2248A2EB800B88C61 /* bokchon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A9B92F5248A2EBA00B88C61 /* Build configuration list for PBXNativeTarget "wkwebview" */;
+			buildConfigurationList = 5A9B92F5248A2EBA00B88C61 /* Build configuration list for PBXNativeTarget "bokchon" */;
 			buildPhases = (
 				5A9B92DF248A2EB800B88C61 /* Sources */,
 				5A9B92E0248A2EB800B88C61 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = wkwebview;
+			name = bokchon;
 			productName = wkwebview;
-			productReference = 5A9B92E3248A2EB800B88C61 /* wkwebview.app */;
+			productReference = 5A9B92E3248A2EB800B88C61 /* bokchon.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5A9B92DE248A2EB800B88C61 /* Build configuration list for PBXProject "wkwebview" */;
+			buildConfigurationList = 5A9B92DE248A2EB800B88C61 /* Build configuration list for PBXProject "bokchon" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5A9B92E2248A2EB800B88C61 /* wkwebview */,
+				5A9B92E2248A2EB800B88C61 /* bokchon */,
 			);
 		};
 /* End PBXProject section */
@@ -212,7 +212,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -267,7 +267,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,12 +282,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = wkwebview/Info.plist;
+				DEVELOPMENT_TEAM = BM3J54672B;
+				INFOPLIST_FILE = webview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.company.wkwebview;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.bokchon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,12 +302,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = wkwebview/Info.plist;
+				DEVELOPMENT_TEAM = BM3J54672B;
+				INFOPLIST_FILE = webview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.company.wkwebview;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.bokchon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -314,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5A9B92DE248A2EB800B88C61 /* Build configuration list for PBXProject "wkwebview" */ = {
+		5A9B92DE248A2EB800B88C61 /* Build configuration list for PBXProject "bokchon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A9B92F3248A2EBA00B88C61 /* Debug */,
@@ -323,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A9B92F5248A2EBA00B88C61 /* Build configuration list for PBXNativeTarget "wkwebview" */ = {
+		5A9B92F5248A2EBA00B88C61 /* Build configuration list for PBXNativeTarget "bokchon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A9B92F6248A2EBA00B88C61 /* Debug */,
